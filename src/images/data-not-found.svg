@@ -1,0 +1,8 @@
+<svg width="101" height="101" viewBox="0 0 101 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.3022 72.8099V63.8646C10.3022 41.4036 28.3491 22.888 50.771 22.8099C56.1191 22.7893 61.4186 23.8249 66.3655 25.8573C71.3124 27.8897 75.8093 30.8788 79.5983 34.6533C83.3872 38.4277 86.3936 42.9131 88.445 47.8522C90.4963 52.7912 91.5523 58.0867 91.5522 63.4349V72.8099C91.5522 73.6387 91.223 74.4335 90.637 75.0196C90.0509 75.6056 89.256 75.9349 88.4272 75.9349H13.4272C12.5984 75.9349 11.8036 75.6056 11.2175 75.0196C10.6315 74.4335 10.3022 73.6387 10.3022 72.8099Z" stroke="#ABABAB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50.9272 22.8096V35.3096" stroke="#ABABAB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M11.6694 52.9277L23.7788 56.1699" stroke="#ABABAB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M90.1851 52.9277L78.0757 56.1699" stroke="#ABABAB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M41.3174 75.9336L68.0361 41.1289" stroke="#ABABAB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="74.4044" y="15.1015" width="7" height="89.9129" rx="3.5" transform="rotate(37.1532 74.4044 15.1015)" fill="#ABABAB" stroke="white" stroke-width="3"/>
+</svg>
