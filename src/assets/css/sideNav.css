@@ -1,0 +1,351 @@
+body {
+    background-color: #F8F6FF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page .section-body {
+    background: transparent;
+    height: 100%;
+    overflow: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#left-sidebar {
+    transition: initial;
+    padding: 0;
+    z-index: 999;
+    border-right: 0;
+}
+
+.page {
+    top: 77px;
+    padding-top: 60px;
+    height: calc(100% - 78px);
+    width: calc(100% - 284px);
+}
+
+.page-header {
+    position: fixed;
+    top: 78px;
+    height: 55px;
+    left: 280px;
+    right: 0;
+    border-bottom: 0;
+    padding: 20px 20px;
+    z-index: 4;
+    background-color: #F8F6FF;
+}
+
+.page-header h1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+
+
+/*top header */
+
+.top-header-prod {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 77px;
+    background-color: #fff;
+    box-shadow: 0px 1px 32px -10px rgba(0, 0, 0, 0.25);
+    left: 280px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px 20px;
+    z-index: 999;
+}
+
+.top-header-prod .collapse-icon {
+    font-size: 20px;
+    padding: 0;
+}
+
+.top-header-prod .collapse-icon:focus {
+    box-shadow: none;
+}
+
+.top-header-prod .current-plan {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.top-header-prod .current-plan p {
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.list-header-top {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.list-header-top li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.list-header-top li span {
+    height: 30px;
+    width: 30px;
+    position: relative;
+}
+
+.list-header-top li span small {
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: -1px;
+    right: 0;
+    border: 1px solid #fff;
+}
+
+.list-header-top li span img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.list-header-top li:last-child {
+    margin-right: 0;
+}
+
+.list-header-top li .dropdown .btn {
+    background-color: transparent;
+    border: 0;
+    color: #000;
+    box-shadow: none;
+    position: relative;
+    padding-left: 50px;
+    line-height: normal;
+    text-align: left;
+    z-index: 999;
+}
+
+.list-header-top li .dropdown .btn::after {
+    content: initial;
+}
+
+.list-header-top li .dropdown .btn:focus,
+.list-header-top li .dropdown .btn:active:focus {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    outline: 0;
+    color: #000;
+}
+
+.list-header-top li .dropdown .btn .initials {
+    display: block;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #482FE4;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.list-header-top li .dropdown .btn p {
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.list-header-top li .dropdown .btn small {
+    font-size: 13px;
+    color: #828282;
+}
+
+
+.offcanvas-active .top-header-prod {
+    left: 80px;
+}
+
+.offcanvas-active .page {
+    left: 80px;
+    width: calc(100% - 80px);
+}
+
+.offcanvas-active .page-header {
+    left: 80px;
+}
+
+/* end */
+
+#left-sidebar .sidebar-nav {
+    margin: 0;
+    height: calc(100vh - 78px);
+    overflow-y: auto;
+}
+
+.company-logo {
+    padding: 18px 10px;
+    position: relative;
+}
+
+.company-logo .header-brand {
+    height: 40px;
+    width: 100%;
+}
+
+.company-logo .header-brand img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.sidebar .metismenu a {
+    padding: 12px 30px;
+    font-size: 16px;
+    position: relative;
+}
+
+.sidebar .metismenu a .caret-left {
+    position: absolute;
+    right: 8px;
+    top: 12px;
+    transition: all .2s ease-in-out;
+}
+
+/* .sidebar .metismenu a .caret-left.rotate-minus-90 {
+    transform: rotate(-180deg);
+    transition: all .2s ease-in-out;
+} */
+
+.sidebar .metismenu .active>a,
+.metismenu a:hover {
+    background-color: #482FE4;
+    border-color: transparent;
+    color: #fff;
+}
+
+.sidebar .metismenu .active>a img,
+.metismenu a:hover img {
+    filter: invert(1);
+}
+
+.offcanvas-active #left-sidebar {
+    left: 0;
+    width: 80px;
+}
+
+.sidebar b {
+    font-weight: 500;
+    font-size: 14px;
+    font-style: normal;
+    margin-left: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sidebar img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.offcanvas-active .sidebar b {
+    transition: all 0.3s ease-in-out;
+    display: none;
+}
+
+.dropdown-icon {
+    text-align: initial;
+}
+
+.metismenu ul a::before,
+.metismenu ul a.list-c::before {
+    content: initial;
+}
+
+.metismenu ul>li:last-child {
+    padding-bottom: 0;
+}
+
+.metismenu .collapse {
+    background-color: #F1EFFF;
+}
+
+.skeleton {
+    background-color: #ededed !important;
+    background: linear-gradient(100deg,
+            rgba(255, 255, 255, 0) 40%,
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0) 60%) #ededed;
+    background-size: 200% 100%;
+    background-position-x: 180%;
+    animation: 1.5s example ease-in-out infinite;
+}
+
+
+
+p.skeleton,
+small.skeleton {
+    display: block;
+    width: 100px;
+    height: 10px;
+    border-radius: 12px;
+}
+
+small.skeleton {
+    margin-top: 5px;
+}
+
+@keyframes example {
+    to {
+        background-position-x: -20%;
+    }
+}
+
+/* .metismenu .in.collapse.collapse {
+    display: none;
+}
+
+.metismenu li.active .in.collapse.collapse.in {
+    display: block;
+}
+
+.sidebar .metismenu .collapse .active>a,
+.metismenu .collapse a:hover {
+    background-color: rgba(72, 47, 228, 0.14);
+    color: #000000;
+} */
+
+
+@media screen and (max-width: 1200px) {
+    .page {
+        left: 80px !important;
+        width: calc(100% - 60px) !important;
+    }
+
+    .inActiveMenu .page-header,
+    .inActiveMenu .top-header-prod {
+        left: 80px;
+    }
+
+    #left-sidebar {
+        left: 0;
+        width: 80px;
+    }
+
+    #left-sidebar b {
+        display: none;
+    }
+}

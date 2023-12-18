@@ -1,0 +1,186 @@
+.payment-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.payment-cards-wrapper .payment-cards-item {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding-right: 18px;
+}
+
+.payment-cards-wrapper .payment-cards-item:last-child {
+    padding-right: 0;
+}
+
+.payment-cards-wrapper .payment-cards-item .card {
+    box-shadow: none;
+    height: 100%;
+    position: relative;
+}
+
+.payment-cards-wrapper .payment-cards-item .card-category {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.payment-cards-wrapper .payment-cards-item .card-body h1 {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 46px;
+}
+
+.payment-cards-wrapper .payment-cards-item .card-body span {
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 5px;
+    color: #828282;
+    line-height: 46px;
+}
+
+.payment-cards-wrapper .payment-cards-item .card-body+.card-body {
+    border: 0;
+}
+
+.payment-cards-wrapper .payment-cards-item .card .current-plan {
+    height: 55px;
+    background: #4BDC07;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 55px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 -20px 20px;
+}
+
+.payment-cards-wrapper .leading-loose {
+    padding-left: 15px;
+}
+
+.payment-cards-wrapper .leading-loose li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.payment-cards-wrapper .leading-loose li a {
+    color: blue;
+}
+
+.payment-cards-wrapper .card-body {
+    justify-content: initial;
+}
+
+.payment-cards-wrapper .payment-cards-item .card-body .btn {
+    font-weight: 600;
+    font-size: 16px;
+    height: 55px;
+    margin-bottom: 20px;
+}
+
+.payment-cards-wrapper .payment-cards-item .card-body .btn:last-child {
+    margin-bottom: 0;
+}
+
+.first-body {
+    height: 45px;
+    padding-bottom: 0;
+}
+
+.payment-cards-wrapper .payment-cards-item .card .ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.premium-plan {
+    box-shadow: 0px 4px 40px rgba(72, 47, 228, 0.25) !important;
+}
+
+.contact-us-card {
+    margin-top: 20px;
+}
+
+.contact-us-card p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.contact-us-card p a {
+    color: #482FE4;
+}
+
+
+/* plan-modal */
+
+.plan-modal {}
+
+.plan-modal .form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-modal .form-group .input-group {
+    width: 180px;
+}
+
+.plan-modal .form-group .form-label {
+    width: 100%;
+}
+
+.plan-modal .form-group .form-label p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan-modal .form-group .form-label p strong {
+    color: #585858;
+    font-weight: 400;
+}
+
+.plan-modal .form-group .form-label p span {
+    font-weight: 500;
+    font-size: 34px;
+    color: #000;
+}
+
+.plan-modal-content {
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.plan-modal-footer {
+    text-align: center;
+}
+
+/* 
+.custom-tab {}
+
+.custom-tab .selectgroup-item {
+    margin-bottom: 0;
+    margin-right: 10px;
+}
+
+.custom-tab .selectgroup-item .selectgroup-button {
+    border-radius: 5px;
+} */
+
+/* end  */
+
+@media screen and (max-width: 1200px) {
+
+    .payment-cards-wrapper {
+        flex-direction: column;
+    }
+
+    .payment-cards-wrapper .payment-cards-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}

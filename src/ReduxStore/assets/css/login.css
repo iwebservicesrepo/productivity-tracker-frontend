@@ -1,0 +1,238 @@
+.login-wrapper {
+    position: relative;
+}
+
+.login-wrapper .login-logo {
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    width: 190px;
+    height: 39px;
+}
+
+.login-overlay {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.login-wrapper .login-logo img,
+.login-overlay img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.login-overlay img {
+    object-fit: cover;
+    object-position: right;
+}
+
+.login-body h1 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.login-body p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #585858;
+}
+
+.login-wrapper .login-header {
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+.login-wrapper .login-header h1 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.login-wrapper .login-header p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #585858;
+}
+
+.login-wrapper a {
+    color: #482FE4;
+    margin-left: 2px;
+}
+
+.auth.login-wrapper .auth_left {
+    width: 600px;
+    background-color: #ffffff;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 30px 80px; */
+
+    padding: 110px 80px 30px 80px;
+}
+
+.login-wrapper .login-from-wrapper {
+    width: 100%;
+}
+
+.auth.login-wrapper .auth_right {
+    width: calc(100% - 600px);
+    position: relative;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.login-text-right {
+    text-align: left;
+    text-align: left;
+    position: absolute;
+    bottom: 200px;
+    left: 56px;
+}
+
+.login-text-right p {
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 66px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.login-text-right h5 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 66px;
+    color: #FFFFFF;
+}
+
+.login-wrapper .login-footer .btn {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.login-wrapper .login-footer p {
+    font-weight: 400;
+    font-size: 11px;
+    color: #585858;
+}
+
+.login-wrapper .login-footer .btn-link {
+    padding: 0;
+}
+
+.signUp-wrapper .login-header {
+    margin-bottom: 20px;
+}
+
+.go-back-button {
+    position: absolute;
+    top: 210px;
+    left: 80px;
+}
+
+.go-button {
+    top: 80px;
+}
+
+
+/* stepper form */
+
+.stepper-wrapper {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.stepper-wrapper .stepper-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+
+.stepper-list li {
+    position: relative;
+    background-color: #fff;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.stepper-list li::after {
+    content: "";
+    position: absolute;
+    border-top: 1px solid #dee2e6;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 107%;
+    width: 106px;
+}
+
+.stepper-list li.active::after {
+    border-color: #28a745;
+}
+
+.stepper-list li:last-child::after {
+    content: initial;
+}
+
+.stepper-list li span {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    background-color: #3f7ee8;
+    font-size: 10px;
+    color: #fff;
+}
+
+.stepper-list li.active::before {
+    content: "\2714";
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    background-color: #28a745;
+    font-size: 10px;
+    color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+}
+
+
+/* end  */
