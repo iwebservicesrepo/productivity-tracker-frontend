@@ -248,7 +248,7 @@ export default function Productivity({ fixNavbar }) {
         result = result?.filter((item) => Number(item?.newDuration) !== 0);
         console.log("2nd", { result });
         // lowerChartData()
-        createTrackedTimeChart(result);
+        // createTrackedTimeChart(result);
         result = result?.filter((item) => item?.windowClass !== "idle-time");
         setGenerateCsv(result);
         let newDataSet = [];
@@ -342,7 +342,6 @@ export default function Productivity({ fixNavbar }) {
       });
   }
 
-h
 
   const getTrackedChartData = (trackingData) => {
     let finalIdealTime = [];
