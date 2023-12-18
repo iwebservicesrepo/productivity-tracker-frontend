@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 
   
-<img src="src/logo.svg" alt="Logo" width="80" height="80" />
+<img src="src/Assets/prod.png" alt="Logo" height="80"/>
   
 
   <h3 align="center">README</h3>
@@ -45,16 +45,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://scalacode.com/prodchimp)
+[![Product Name Screen Shot][product-screenshot]]
 
 Productivity Tracker Frontend Readme
 
 
 * Make sure git is installed to clone this repository
 * After that use either ssh or https to clone it. If you are using ssh make sure to install SSH private-public key where private key will reside on your system and public key will be pasted on Github account for authentication purpose.
-* If you use https for cloning use that and copy https url and use the follwing command - :
+* If you use https for cloning, copy https url and use the following command - :  
     
-    ``` git clone https://github.com/iwebservicesrepo/productivity-tracker-frontend.git 
+    ``` 
+    git clone https://github.com/iwebservicesrepo/productivity-tracker-frontend.git 
     ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -64,9 +65,9 @@ Productivity Tracker Frontend Readme
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+   
 
 * [![React][React.js]][React-url]
-and
 * [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -75,25 +76,26 @@ and
 
 <!-- GETTING STARTED -->
 ## Getting Started
+<br />
 
-After cloning make sure you have VS Code Editor[1] installed.
+After cloning make sure you have    
+<br />
+ !["VS Code Editor"][vs-code]     
+ <br />
+installed.
 
-![1]:["https://code.visualstudio.com/download"] 
-
-### Install all the required packages 
-
+### Install all the required packages   
+<br />
 This is an example of how to list things you need to use the software and how to install them.
-
-* npm
-  ```sh
+  
+* ```
   npm install
   ```
 
 ### Installation if above command give error
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-3. Install NPM packages
+<br />
+  
+* Install NPM packages
    ```sh
    npm install --force
    ```
@@ -102,20 +104,24 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 <!-- USAGE EXAMPLES -->
-## Execute & Run 
+## Execute & Run  
+ <br />
+Use the following command to run the project.  
 
-Use the following command to run the project.
+<br />
+
 ```
-    npm run start
+npm run start
 ```
-
-
+  
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- ROADMAP -->
-## Roadmap
+## Roadmap  
+<br />  
 
 - [x] Updated Readme
 - [x] Update Readme for Backend & Desktop version
@@ -123,7 +129,16 @@ Use the following command to run the project.
 - [ ] Start with Minor Bugs
 - [ ] Features (if any)
 
+
+<br />
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<br />  
+
+ -- -- --   
+   
+
 
 
 * [GitHub Pages](https://pages.github.com)
@@ -135,7 +150,7 @@ Use the following command to run the project.
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[productr-screenshot]: https://www.scalacode.com/wp-content/uploads/desk-logo.png.webp
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
@@ -154,3 +169,4 @@ Use the following command to run the project.
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
 [Bootstrap-url]: https://getbootstrap.com
+[vs-code]: https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white
